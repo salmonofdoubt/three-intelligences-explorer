@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Model Logic | Three Intelligences Explorer</title>
+  <meta name="description" content="Complete model logic, assumptions, data modes, indicators, scoring rules, limitations, and references for the Three Intelligences Explorer." />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="https://salmonofdoubt.github.io/">André Baumann</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="https://salmonofdoubt.github.io/">Home</a>
+        <a href="https://salmonofdoubt.github.io/art/">Art</a>
+        <a href="https://salmonofdoubt.github.io/music/">Music</a>
+        <a href="https://salmonofdoubt.github.io/demos/">Demos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container intelligence-demo model-logic-page">
+    <section class="hero intelligence-hero model-logic-hero">
+      <div class="panel">
+        <span class="eyebrow">Model Logic</span>
+        <h1>Three Intelligences Explorer</h1>
+        <p class="lead">
+          A complete explanation of the concept, assumptions, data modes, indicators, transformations,
+          scoring logic, feedback timescales, fallback behaviour, limitations, and references.
+        </p>
+
+        <div class="model-status-strip" aria-label="Model status">
+          <span class="model-status-pill">Prototype model</span>
+          <span class="model-status-pill">Public proxy indicators</span>
+          <span class="model-status-pill caution">Not a ranking</span>
+          <span class="model-status-pill">Fallback mode available</span>
+        </div>
+
+        <div class="hero-doi-row">
+          <div class="doi-strip" aria-label="Archived release DOI">
+            <span class="doi-strip-label">Archived release</span>
+            <span class="doi-strip-badge">DOI</span>
+            <a class="doi-strip-link" href="https://doi.org/10.5281/zenodo.19633908" target="_blank" rel="noopener noreferrer">10.5281/zenodo.19633908</a>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <a class="button primary" href="./index.html">Back to Explorer</a>
+          <a class="button" href="https://salmonofdoubt.github.io/demos/">Back to Demos</a>
+          <a class="button" href="README.md">Raw README.md</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section model-logic-layout">
+      <aside class="panel model-toc">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#not-ranking">What it is not</a></li>
+          <li><a href="#concept">Conceptual basis</a></li>
+          <li><a href="#feedback">Feedback mismatch</a></li>
+          <li><a href="#timescales">Timescales</a></li>
+          <li><a href="#planetary-context">Planetary context</a></li>
+          <li><a href="#data-modes">Data modes</a></li>
+          <li><a href="#indicators">Indicators</a></li>
+          <li><a href="#transforms">Transform rules</a></li>
+          <li><a href="#scores">Scores</a></li>
+          <li><a href="#diagnostics">Diagnostics</a></li>
+          <li><a href="#readiness">Readiness bands</a></li>
+          <li><a href="#fallback">Fallback mode</a></li>
+          <li><a href="#limitations">Limitations</a></li>
+          <li><a href="#references">References</a></li>
+        </ol>
+      </aside>
+
+      <article class="panel model-document">
+        <section id="summary">
+          <h2>1. Executive summary</h2>
+          <p>
+            <strong>Three Intelligences Explorer</strong> is an interactive GitHub Pages demo for exploring three linked
+            forms of systems intelligence: individual capability, collective coordination, and planetary stewardship.
+          </p>
+
+          <div class="model-callout">
+            <strong>One-sentence interpretation</strong>
+            <p>
+              The demo asks whether countries can combine human capability, collective coordination, and planetary
+              feedback strongly enough to move toward mature-technosphere readiness while Earth as a whole remains in
+              an immature technosphere condition.
+            </p>
+          </div>
+
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Axis</th>
+                <th>Model dimension</th>
+                <th>Interpretive role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>X</td>
+                <td>Individual intelligence proxy</td>
+                <td>Human capability, education, health, and knowledge access</td>
+              </tr>
+              <tr>
+                <td>Y</td>
+                <td>Collective intelligence proxy</td>
+                <td>Institutional coordination, governance, accountability, and system learning</td>
+              </tr>
+              <tr>
+                <td>Z</td>
+                <td>Planetary intelligence proxy</td>
+                <td>Stewardship, ecological pressure reduction, and Earth-system feedback capacity</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="not-ranking">
+          <h2>2. What this model is not</h2>
+          <p>
+            This model is not a national IQ ranking, not a league table of “smart countries”, not a measure of innate
+            intelligence, not a settled scientific index, and not a claim that any country has achieved planetary
+            intelligence.
+          </p>
+          <p>
+            It is a transparent systems-readiness prototype. The useful signal is not “which country is smartest”.
+            The useful signal is how human capability, collective coordination, and planetary stewardship diverge.
+          </p>
+        </section>
+
+        <section id="concept">
+          <h2>3. Conceptual basis</h2>
+          <p>
+            The planetary-intelligence framing follows Frank, Grinspoon, and Walker’s argument that intelligence can be
+            treated as a planetary-scale process when collective knowledge becomes integrated into the functioning of
+            coupled planetary systems.
+          </p>
+          <p>
+            The collective-intelligence framing also draws on the idea that groups can show performance characteristics
+            not reducible to individual ability alone.
+          </p>
+        </section>
+
+        <section id="feedback">
+          <h2>4. Feedback mismatch and incentive conflict</h2>
+          <p>
+            The three intelligence layers do not merely operate at different scales; they also operate with different
+            incentives. An action can be individually rational while being collectively harmful. This is the classic
+            problem of collective action: the individual may benefit from not contributing to a shared good, while still
+            benefiting if others contribute. At scale, this produces free-riding, underinvestment, depletion, or delayed
+            system failure.
+          </p>
+
+          <p>
+            This matters because individual intelligence does not automatically become collective intelligence. A
+            population of capable individuals can still produce poor collective outcomes if incentives, institutions,
+            trust, information flows, and enforcement mechanisms are weak.
+          </p>
+
+          <div class="model-card-grid">
+            <section class="model-mini-card">
+              <h3>Public goods and free-riding</h3>
+              <p>
+                A person may prefer to avoid paying taxes, membership fees, or maintenance costs while still enjoying
+                roads, public health, clean water, flood defences, or scientific knowledge funded by others.
+                Individually, non-payment may look advantageous. Collectively, it weakens the shared system.
+              </p>
+            </section>
+
+            <section class="model-mini-card">
+              <h3>Commons and resource depletion</h3>
+              <p>
+                A farmer, fisher, or water user may gain from taking a little more from a shared resource. If all users
+                follow that same incentive, the common resource may degrade. Ostrom’s work is important because it shows
+                that collapse is not inevitable: communities can govern commons through rules, monitoring, sanctions,
+                and trust.
+              </p>
+            </section>
+
+            <section class="model-mini-card">
+              <h3>Vaccination and herd protection</h3>
+              <p>
+                An individual may prefer to avoid vaccination while relying on others to maintain herd protection. If too
+                many individuals make that same choice, collective protection weakens and disease risk rises for vulnerable
+                people.
+              </p>
+            </section>
+
+            <section class="model-mini-card">
+              <h3>Antibiotics and resistance</h3>
+              <p>
+                An individual may want antibiotics immediately, even where they are unnecessary. The short-term private
+                desire for treatment can contribute to antimicrobial resistance, reducing future treatment effectiveness
+                for everyone.
+              </p>
+            </section>
+          </div>
+
+          <p>
+            The same logic becomes sharper at planetary scale. A person may gain convenience, income, mobility, or
+            status from carbon-intensive behaviour now, while the climatic cost is distributed globally and delayed
+            across decades or centuries.
+          </p>
+        </section>
+
+        <section id="timescales">
+          <h2>5. Feedback timescales: why the three intelligences move at different speeds</h2>
+          <p>
+            The three intelligence layers do not operate on the same clock. Individual intelligence is comparatively
+            fast: a person can perceive a signal, form an intention, and act within seconds, days, or years. Collective
+            intelligence is slower because groups, institutions, laws, infrastructures, markets, and public norms usually
+            change over years to decades. Planetary intelligence is slower again: atmospheric chemistry, ocean heat
+            uptake, ecosystem recovery, ice-sheet response, and carbon-cycle rebalancing can unfold across decades,
+            centuries, or longer.
+          </p>
+
+          <div class="model-equation">
+            individual feedback: seconds to years<br />
+            collective feedback: years to decades<br />
+            planetary feedback: decades to centuries or longer
+          </div>
+
+          <p>
+            The “1000x slower” idea should be read as a heuristic, not as a fixed physical constant. The key point is
+            that an individual can act now, while the planetary system may register and express the consequences much
+            later.
+          </p>
+
+          <p>
+            Carbon dioxide illustrates this mismatch. CO2 does not behave like a short-lived pollutant that simply
+            disappears after a few years. Once added to the atmosphere, some CO2 is absorbed relatively quickly by land
+            and ocean sinks, but a substantial fraction persists for centuries or longer. This means that even if
+            emissions stopped immediately, atmospheric CO2 would not simply return to pre-industrial conditions within
+            one human lifetime.
+          </p>
+
+          <p>
+            A planetary act by an individual is therefore an action whose meaningful effect exceeds immediate private
+            benefit. Examples include restoring habitat, reducing emissions, supporting long-term climate policy,
+            changing land-use practice, building low-carbon infrastructure, producing public knowledge, or helping
+            institutions remember long-term ecological consequences. Such actions are intelligent because they help
+            collective systems respond to planetary signals, even when the individual may never personally experience
+            the full planetary benefit.
+          </p>
+        </section>
+
+        <section id="planetary-context">
+          <h2>6. Planetary context</h2>
+          <p>
+            The demo treats Earth’s current state as an <strong>immature technosphere</strong>: humanity has
+            planetary-scale technological effects, but does not yet have mature planetary self-regulation.
+          </p>
+
+          <div class="model-stage-row" aria-label="Planetary transition sequence">
+            <span>Geosphere</span>
+            <span>Immature biosphere</span>
+            <span>Mature biosphere</span>
+            <span class="active">Immature technosphere</span>
+            <span>Mature technosphere</span>
+          </div>
+
+          <p>
+            Countries are not placed into geosphere or biosphere stages. A selected country is treated as a subsystem
+            inside the current immature global technosphere and scored for relative readiness inside that condition.
+          </p>
+        </section>
+
+        <section id="data-modes">
+          <h2>7. Data modes</h2>
+          <div class="model-card-grid">
+            <section class="model-mini-card">
+              <h3>Live mode</h3>
+              <p>
+                In live mode, the browser attempts to retrieve public indicator data from the World Bank API. For each
+                country-indicator pair, the app keeps the most recent available value in the 2010 to 2026 range.
+              </p>
+            </section>
+            <section class="model-mini-card">
+              <h3>Fallback mode</h3>
+              <p>
+                Fallback mode loads <code>data/country_scores_fallback.csv</code> when live retrieval fails or returns
+                too few usable values. It keeps the demo functional, but should not be cited as a final empirical ranking.
+              </p>
+            </section>
+          </div>
+        </section>
+
+        <section id="data-route">
+  <h2>Data route and freshness</h2>
+  <p>
+    The public-facing data route is intentionally simple: the demo first tries to load a periodically refreshed
+    local snapshot of World Bank API results. This is the preferred route because it is stable, fast, and does
+    not require every visitor’s browser to make a large set of live API requests.
+  </p>
+  <table class="model-table">
+    <thead>
+      <tr>
+        <th>Mode shown on page</th>
+        <th>Meaning</th>
+        <th>User interpretation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fresh snapshot data</td>
+        <td>A local <code>worldbank_snapshot.json</code> file was loaded successfully.</td>
+        <td>Use this as the normal public data mode.</td>
+      </tr>
+      <tr>
+        <td>Partial snapshot data</td>
+        <td>The snapshot loaded, but one or more indicators were unavailable or skipped.</td>
+        <td>Usable, but inspect the heatmap and source transparency.</td>
+      </tr>
+      <tr>
+        <td>Live browser data</td>
+        <td>The browser fetched World Bank data directly because the snapshot was unavailable.</td>
+        <td>Backup route only; useful but more fragile.</td>
+      </tr>
+      <tr>
+        <td>Partial live browser data</td>
+        <td>The browser fetched some indicators, but at least one failed.</td>
+        <td>Usable with caution; inspect the heatmap.</td>
+      </tr>
+      <tr>
+        <td>Fallback illustrative data</td>
+        <td>The app loaded the fallback CSV because snapshot and live fetch were not usable.</td>
+        <td>Interface demonstration only, not empirical evidence.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    The homepage therefore shows <strong>Data updated</strong>, <strong>Indicator source</strong>, and a small
+    indicator heatmap. The user needs provenance and freshness, not the internal plumbing.
+  </p>
+</section>
+
+        <section id="indicators">
+          <h2>8. Indicator framework</h2>
+          <p>
+            Indicators are defined in <code>data/indicators.json</code>. Each indicator has a World Bank code, label,
+            layer, weight, direction, transform rule, source note, and methodological note.
+          </p>
+
+          <h3>Individual intelligence proxy</h3>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Indicator</th>
+                <th>Weight</th>
+                <th>Transform</th>
+                <th>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>HD.HCI.OVRL</code></td><td>Human Capital Index</td><td>0.42</td><td><code>scale_0_1</code></td><td>Education-health capability proxy</td></tr>
+              <tr><td><code>IT.NET.USER.ZS</code></td><td>Internet users</td><td>0.23</td><td><code>percent</code></td><td>Digital access and knowledge access</td></tr>
+              <tr><td><code>SE.TER.ENRR</code></td><td>Tertiary enrolment</td><td>0.17</td><td><code>capped_percent</code></td><td>Learning-system depth proxy</td></tr>
+              <tr><td><code>SP.DYN.LE00.IN</code></td><td>Life expectancy</td><td>0.18</td><td><code>linear</code></td><td>Health and longevity proxy</td></tr>
+            </tbody>
+          </table>
+
+          <h3>Collective intelligence proxy</h3>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Indicator</th>
+                <th>Weight</th>
+                <th>Transform</th>
+                <th>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>GE.EST</code></td><td>Government effectiveness</td><td>0.24</td><td><code>wgi_estimate</code></td><td>Policy execution and implementation capacity</td></tr>
+              <tr><td><code>RL.EST</code></td><td>Rule of law</td><td>0.22</td><td><code>wgi_estimate</code></td><td>Rule-based coordination and trust</td></tr>
+              <tr><td><code>CC.EST</code></td><td>Control of corruption</td><td>0.20</td><td><code>wgi_estimate</code></td><td>Institutional integrity</td></tr>
+              <tr><td><code>VA.EST</code></td><td>Voice and accountability</td><td>0.17</td><td><code>wgi_estimate</code></td><td>Societal feedback and accountability</td></tr>
+              <tr><td><code>RQ.EST</code></td><td>Regulatory quality</td><td>0.17</td><td><code>wgi_estimate</code></td><td>Policy environment for coordinated action</td></tr>
+            </tbody>
+          </table>
+
+          <h3>Planetary intelligence proxy</h3>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Indicator</th>
+                <th>Weight</th>
+                <th>Direction</th>
+                <th>Transform</th>
+                <th>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>EG.FEC.RNEW.ZS</code></td><td>Renewable energy consumption</td><td>0.24</td><td>Positive</td><td><code>percent</code></td><td>Energy-system transition proxy</td></tr>
+              <tr><td><code>ER.PTD.TOTL.ZS</code></td><td>Protected areas</td><td>0.22</td><td>Positive</td><td><code>capped_percent</code></td><td>Biodiversity stewardship proxy</td></tr>
+              <tr><td><code>AG.LND.FRST.ZS</code></td><td>Forest area</td><td>0.16</td><td>Positive</td><td><code>capped_percent</code></td><td>Land-cover and ecological-stock proxy</td></tr>
+              <tr><td><code>EN.GHG.CO2.PC.CE.AR5</code></td><td>CO2 emissions excluding LULUCF per capita</td><td>0.22</td><td>Negative</td><td><code>inverse_linear</code></td><td>Lower emissions score better</td></tr>
+              <tr><td><code>EN.ATM.PM25.MC.M3</code></td><td>PM2.5 exposure</td><td>0.16</td><td>Negative</td><td><code>inverse_linear</code></td><td>Lower pollution exposure score better</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="transforms">
+          <h2>9. Transform rules</h2>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Transform</th>
+                <th>Formula</th>
+                <th>Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code>scale_0_1</code></td><td>score = raw value x 100</td><td>Values already scaled from 0 to 1</td></tr>
+              <tr><td><code>percent</code></td><td>score = raw percentage</td><td>Values already expressed as percentages</td></tr>
+              <tr><td><code>capped_percent</code></td><td>score = min(raw, cap) / cap x 100</td><td>Percentages capped for scoring</td></tr>
+              <tr><td><code>wgi_estimate</code></td><td>score = ((raw + 2.5) / 5) x 100</td><td>World Bank Governance Indicators</td></tr>
+              <tr><td><code>linear</code></td><td>score = (raw - min) / (max - min) x 100</td><td>Linear score between model bounds</td></tr>
+              <tr><td><code>inverse_linear</code></td><td>score = 100 - linear score</td><td>Indicators where lower is better</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="scores">
+          <h2>10. Scores</h2>
+          <p>Each layer score is a weighted average of valid transformed indicator scores.</p>
+          <div class="model-equation">layer score = sum(indicator score x indicator weight) / sum(valid indicator weights)</div>
+          <p>The overall synergy score is the average of the individual, collective, and planetary layer scores.</p>
+          <div class="model-equation">overall synergy = average(individual, collective, planetary)</div>
+        </section>
+
+        <section id="diagnostics">
+          <h2>11. Planetary-intelligence diagnostics</h2>
+          <p>
+            The selected-country profile includes five model-derived diagnostics: emergence, network information,
+            semantic feedback, boundaries and signals, and autopoiesis.
+          </p>
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Diagnostic</th>
+                <th>Formula</th>
+                <th>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Emergence</td><td>0.35i + 0.35c + 0.30p</td><td>Capability arising above individual actors</td></tr>
+              <tr><td>Network information</td><td>0.60c + 0.20i + 0.20p</td><td>Institutional and informational connectivity</td></tr>
+              <tr><td>Semantic feedback</td><td>0.35c + 0.55p + 0.10safe</td><td>Environmental signals becoming meaningful for action</td></tr>
+              <tr><td>Boundaries and signals</td><td>0.60p + 0.25c + 0.15safe</td><td>Detection and response to planetary limits</td></tr>
+              <tr><td>Autopoiesis</td><td>0.55p + 0.30c + 0.15safe</td><td>Capacity to maintain long-term conditions of existence</td></tr>
+            </tbody>
+          </table>
+          <p>
+            In these formulas, <code>i</code> is individual score, <code>c</code> is collective score,
+            <code>p</code> is planetary score, and <code>safe</code> is 100 minus ecological pressure.
+          </p>
+        </section>
+
+        <section id="readiness">
+          <h2>12. Mature Technosphere Gap and readiness bands</h2>
+          <p>The Mature Technosphere Gap is the selected-country readiness score.</p>
+          <div class="model-equation">Mature Technosphere Gap = average(five diagnostics) - 0.35 x ecological pressure</div>
+
+          <table class="model-table">
+            <thead>
+              <tr>
+                <th>Score range</th>
+                <th>Readiness band</th>
+                <th>Colour</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>0-24</td><td>Emerging readiness</td><td>Purple</td></tr>
+              <tr><td>25-49</td><td>Immature readiness</td><td>Amber</td></tr>
+              <tr><td>50-74</td><td>Transitioning readiness</td><td>Blue</td></tr>
+              <tr><td>75-100</td><td>Mature-candidate readiness</td><td>Teal</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="fallback">
+          <h2>13. Fallback mode</h2>
+          <p>
+            Fallback mode is a continuity mechanism. It prevents the public demo from becoming unusable when live data
+            cannot be fetched. Fallback values are suitable for demonstrating interface behaviour and model structure,
+            but should not be cited as final empirical results.
+          </p>
+        </section>
+
+        <section id="limitations">
+          <h2>14. Assumptions and limitations</h2>
+          <ul>
+            <li>Proxy indicators are imperfect. Forest area is not biodiversity quality. Protected area percentage is not effective conservation.</li>
+            <li>Country-level scores hide internal variation, including inequality, regional ecological pressure, and historical responsibility.</li>
+            <li>The planetary layer is incomplete and does not yet include material footprint, consumption-based emissions, water stress, biodiversity intactness, or environmental justice.</li>
+            <li>Readiness is model-dependent. Changing indicators, weights, thresholds, or transformations will change results.</li>
+            <li>Fallback mode is illustrative and should not be cited as empirical ranking evidence.</li>
+          </ul>
+        </section>
+
+        <section id="references">
+          <h2>15. References</h2>
+          <div class="apa-reference-list">
+            <p>Fine, P., Eames, K., &amp; Heymann, D. L. (2011). “Herd immunity”: A rough guide. <em>Clinical Infectious Diseases, 52</em>(7), 911-916. https://doi.org/10.1093/cid/cir007</p>
+            <p>Frank, A., Grinspoon, D., &amp; Walker, S. I. (2022). Intelligence as a planetary scale process. <em>International Journal of Astrobiology, 21</em>, 47-61. https://doi.org/10.1017/S147355042100029X</p>
+            <p>Hardin, G. (1968). The tragedy of the commons. <em>Science, 162</em>(3859), 1243-1248. https://doi.org/10.1126/science.162.3859.1243</p>
+            <p>MIT Climate Portal. (2023, January 17). <em>How do we know how long carbon dioxide remains in the atmosphere?</em> https://climate.mit.edu/ask-mit/how-do-we-know-how-long-carbon-dioxide-remains-atmosphere</p>
+            <p>Olson, M. (1965). <em>The logic of collective action: Public goods and the theory of groups</em>. Harvard University Press.</p>
+            <p>Ostrom, E. (1990). <em>Governing the commons: The evolution of institutions for collective action</em>. Cambridge University Press. https://doi.org/10.1017/CBO9780511807763</p>
+            <p>U.S. Centers for Disease Control and Prevention. (2024, April 22). <em>Antibiotic use and antimicrobial resistance facts</em>. https://www.cdc.gov/antibiotic-use/data-research/facts-stats/index.html</p>
+            <p>Woolley, A. W., Chabris, C. F., Pentland, A., Hashmi, N., &amp; Malone, T. W. (2010). Evidence for a collective intelligence factor in the performance of human groups. <em>Science, 330</em>(6004), 686-688. https://doi.org/10.1126/science.1193147</p>
+            <p>World Bank. (n.d.). <em>Human Capital Project</em>. Retrieved May 9, 2026, from https://www.worldbank.org/en/publication/human-capital</p>
+            <p>World Bank. (n.d.). <em>World Development Indicators</em>. Retrieved May 9, 2026, from https://databank.worldbank.org/source/world-development-indicators</p>
+            <p>World Bank. (n.d.). <em>Worldwide Governance Indicators</em>. Retrieved May 9, 2026, from https://www.worldbank.org/en/publication/worldwide-governance-indicators</p>
+          </div>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© André Baumann · Three Intelligences Explorer Model Logic</p>
+    </div>
+  </footer>
+</body>
+</html>

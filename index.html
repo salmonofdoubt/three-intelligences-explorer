@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Three Intelligences Explorer | André Baumann</title>
+  <meta
+    name="description"
+    content="Interactive 3D demo exploring individual, collective, and planetary intelligence using transparent public-indicator proxies."
+  />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.2/dist/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="https://salmonofdoubt.github.io/">André Baumann</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="https://salmonofdoubt.github.io/">Home</a>
+        <a href="https://salmonofdoubt.github.io/art/">Art</a>
+        <a href="https://salmonofdoubt.github.io/music/">Music</a>
+        <a href="https://salmonofdoubt.github.io/demos/" aria-current="page">Demos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container intelligence-demo">
+    <section class="hero intelligence-hero">
+      <div class="panel">
+        <span class="eyebrow">Experimental systems intelligence</span>
+        <h1>Three Intelligences Explorer</h1>
+        <p class="lead">
+          A 3D, browser-native model for exploring the relationship between individual capability,
+          collective coordination, and planetary stewardship.
+        </p>
+        <p>
+          The demo loads public World Bank indicator proxies where possible, then computes transparent
+          composite scores. It is a reasoning instrument, not a definitive ranking. That distinction is
+          small but, as humans say, rather important.
+        </p>
+
+        <div class="model-status-strip" aria-label="Model status">
+          <span class="model-status-pill">Prototype model</span>
+          <span class="model-status-pill">Public proxy indicators</span>
+          <span class="model-status-pill caution">Not a ranking</span>
+          <span class="model-status-pill">Fallback mode available</span>
+        </div>
+<div class="hero-doi-row">
+  <div class="doi-strip" aria-label="Archived release DOI">
+    <span class="doi-strip-label">Archived release</span>
+    <span class="doi-strip-badge">DOI</span>
+    <a class="doi-strip-link" href="https://doi.org/10.5281/zenodo.19633908" target="_blank" rel="noopener noreferrer">10.5281/zenodo.19633908</a>
+  </div>
+</div>
+
+
+        <div class="button-row">
+          <a class="button" href="https://salmonofdoubt.github.io/demos/">Back to Demos</a>
+          <a class="button primary" href="#explorer">Open Explorer</a>
+          <a class="button" href="model.html">Model Logic</a>
+        </div>
+      </div>
+
+      <aside class="panel quick-facts">
+        <div>
+          <strong>Mode</strong>
+          <span id="dataMode">Loading empirical indicators…</span>
+        </div>
+        <div>
+          <strong>Displayed countries</strong>
+          <span id="displayedCount">0</span>
+        </div>
+        <div>
+          <strong>Indicator source</strong>
+          <span id="dataSourceRoute">World Bank API snapshot + fallback safety net</span>
+        </div>
+      <div class="indicator-health-block">
+  <strong>Live indicator map</strong>
+  <div id="liveIndicatorHeatmap" class="indicator-health-map">
+    <span class="muted small">Waiting for indicator status…</span>
+  </div>
+</div>
+      </aside>
+    </section>
+
+    <section id="explorer" class="section explorer-shell">
+      <div class="panel controls-panel">
+        <h2>Controls</h2>
+        <p class="muted small">Filter the system. Click a point to inspect the country profile.</p>
+
+        <label for="regionFilter">Region</label>
+        <select id="regionFilter"></select>
+
+        <label for="countrySearch">Search country</label>
+        <input id="countrySearch" type="text" placeholder="Ireland, Italy, Singapore…" />
+
+        <label for="minSynergy">Minimum synergy: <span id="minSynergyValue">0</span></label>
+        <input id="minSynergy" type="range" min="0" max="100" step="1" value="0" />
+
+        <label for="colourMode">Colour points by</label>
+        <select id="colourMode">
+          <option value="archetype">Archetype</option>
+          <option value="region">Region</option>
+          <option value="synergy">Overall synergy</option>
+        </select>
+
+        <div class="toggle-stack" aria-label="Visual layers">
+          <label class="toggle-row" for="showLandingBars">
+            <input id="showLandingBars" type="checkbox" />
+            <span>Show landing bars</span>
+          </label>
+          <label class="toggle-row" for="showMaturityHalos">
+            <input id="showMaturityHalos" type="checkbox" />
+            <span>Show maturity rings</span>
+          </label>
+          <label class="toggle-row" for="showTheoryDiagnostics">
+            <input id="showTheoryDiagnostics" type="checkbox" checked />
+            <span>Show theory diagnostics</span>
+          </label>
+        </div>
+
+
+        <div class="button-row control-buttons">
+          <button id="resetCamera" type="button" class="button">Reset view</button>
+          <button id="clearFilters" type="button" class="button">Clear filters</button>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric-card"><span>Avg individual</span><strong id="avgIndividual">0</strong></div>
+          <div class="metric-card"><span>Avg collective</span><strong id="avgCollective">0</strong></div>
+          <div class="metric-card"><span>Avg planetary</span><strong id="avgPlanetary">0</strong></div>
+          <div class="metric-card"><span>Completeness</span><strong id="avgCompleteness">0%</strong></div>
+        </div>
+      </div>
+
+      <div class="plot-stack">
+        <div id="plot" class="panel plot-panel" aria-label="Interactive 3D intelligence plot"></div>
+        <div class="panel selected-panel">
+          <h2>Selected country</h2>
+          <div id="selectedCountry" class="selected-country">
+            <p class="muted">Click a marker in the 3D plot to inspect details, source years, and score logic.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="theory-layer" class="section theory-layer">
+      <div class="panel theory-panel">
+        <span class="eyebrow">Planetary intelligence layer</span>
+        <h2>Current planetary context: immature technosphere</h2>
+        <p class="section-intro">
+          Earth is treated as an immature technosphere overall: humanity has planetary-scale effects, but not yet
+          mature planetary self-regulation. Country profiles below show relative readiness within that global condition. The country marker is not a biosphere-stage marker.
+        </p>
+
+
+        <div class="how-read-card">
+          <h3>How to read this</h3>
+          <div class="how-read-grid">
+            <p>
+              <strong>Earth is fixed here as an immature technosphere.</strong>
+              The bubble row describes the current global planetary context, not a country-by-country pathway.
+            </p>
+            <p>
+              <strong>Countries are subsystems inside that context.</strong>
+              A selected country is scored for readiness within the present immature global technosphere.
+            </p>
+            <p>
+              <strong>The readiness score is not a national-IQ ranking.</strong>
+              It is a transparent proxy for human capability, collective coordination, and planetary self-regulation.
+            </p>
+          </div>
+        </div>
+
+        <div class="transition-steps" aria-label="Planetary intelligence transition sequence">
+          <div class="transition-step">Geosphere</div>
+          <div class="transition-step">Immature biosphere</div>
+          <div class="transition-step">Mature biosphere</div>
+          <div class="transition-step active">Immature technosphere</div>
+          <div class="transition-step">Mature technosphere</div>
+        </div>
+
+        <div id="transitionLean" class="transition-lean">
+          <p class="transition-lean-note">Click a country to see where it leans within the current planetary context.</p>
+        </div>
+
+        <div class="theory-grid">
+          <article class="theory-card">
+            <h3>Five diagnostics</h3>
+            <p class="muted">
+              The diagnostics follow the planetary-intelligence properties: emergence, networked information flow,
+              semantic feedback, boundaries and signals, and autopoietic self-maintenance.
+            </p>
+            <ul class="list-clean muted diagnostic-list">
+              <li><strong>Emergence:</strong> capability arising above individual actors.</li>
+              <li><strong>Networks:</strong> institutional and informational connectivity.</li>
+              <li><strong>Semantic feedback:</strong> environmental signals become meaningful for action.</li>
+              <li><strong>Boundaries and signals:</strong> planetary limits are detected and acted upon.</li>
+              <li><strong>Autopoiesis:</strong> the system supports its own long-term conditions of existence.</li>
+            </ul>
+          </article>
+
+          <article class="theory-card selected-theory-card">
+            <h3>Selected-country theory profile</h3>
+            <div id="selectedTheory">
+              <p class="muted">Click a country marker to view its maturity state, diagnostic bars, and mature-technosphere gap.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section id="countryReportDownload" class="section country-report-download">
+  <div class="panel report-download-panel">
+    <div>
+      <span class="eyebrow">Country report</span>
+      <h2>Download selected-country PDF report</h2>
+      <p id="countryReportDownloadText" class="section-intro">
+        Select a country in the 3D plot to export the country profile, planetary-context interpretation,
+        diagnostics, comparison context, and source transparency as a PDF.
+      </p>
+    </div>
+    <button id="downloadCountryPdfReport" type="button" class="button primary" disabled>
+      Select a country first
+    </button>
+  </div>
+</section>
+
+<section class="section model-logic-cta">
+  <div class="panel">
+    <span class="eyebrow">Model Logic</span>
+    <h2>How the model works</h2>
+    <p class="section-intro">
+      The model logic, assumptions, indicators, equations, fallback behaviour, feedback-timescale explanation,
+      incentive-conflict examples, limitations, and APA 7 references now live on one dedicated page.
+    </p>
+    <div class="button-row">
+      <a class="button primary" href="model.html">Open Model Logic</a>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© André Baumann · Three Intelligences Explorer</p>
+    </div>
+  </footer>
+
+  <script src="app.js?v=standalone-20260511" defer></script>
+</body>
+</html>

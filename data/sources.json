@@ -1,0 +1,31 @@
+{
+  "model_status": "Empirical runtime prototype. The browser attempts to fetch current World Bank API values, then computes transparent composite scores. Fallback CSV values are illustrative only.",
+  "data_sources": [
+    {
+      "name": "World Bank Human Capital Index",
+      "url": "https://data.worldbank.org/indicator/HD.HCI.OVRL",
+      "role": "individual intelligence proxy"
+    },
+    {
+      "name": "World Bank Worldwide Governance Indicators",
+      "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+      "role": "collective intelligence proxy"
+    },
+    {
+      "name": "World Bank World Development Indicators",
+      "url": "https://data.worldbank.org/",
+      "role": "digital, health, education, climate, protected-area, emissions, air-pollution indicators"
+    },
+    {
+      "name": "International Journal of Astrobiology, planetary intelligence concept",
+      "url": "https://doi.org/10.1017/S147355042100029X",
+      "role": "planetary intelligence framing"
+    },
+    {
+      "name": "Woolley et al. collective intelligence factor",
+      "url": "https://doi.org/10.1126/science.1193147",
+      "role": "collective intelligence framing"
+    }
+  ],
+  "warning": "The index is exploratory. It should be treated as a public reasoning instrument, not a formal ranking of nations."
+}

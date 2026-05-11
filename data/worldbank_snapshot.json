@@ -1,0 +1,1627 @@
+{
+  "meta": {
+    "countries_with_any_value": 30,
+    "country_count": 30,
+    "failed_indicator_count": 6,
+    "generated_at": "2026-05-11T08:41:05.188285+00:00",
+    "indicator_count": 14,
+    "loaded_indicator_count": 8,
+    "source": "World Bank API",
+    "title": "Three Intelligences Explorer World Bank snapshot",
+    "value_count": 240,
+    "years": "2010:2026"
+  },
+  "rawValues": {
+    "AT": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 47.2402653902084,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 36.0,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 10.9335136815146,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.32278424603578,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 29.6,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.746739745140076,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 91.92573373,
+        "year": 2025
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 92.6126708984375,
+        "year": 2024
+      }
+    },
+    "AU": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 17.4213145571644,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 12.3,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 8.25171746070811,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 14.0973544987552,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 33.5,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.770239531993866,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 96.13140106,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 108.421989440918,
+        "year": 2024
+      }
+    },
+    "BE": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 22.604446776415,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 11.7,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 11.2160664677018,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 7.30661519351762,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 18.6,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.76041966676712,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 95.77579144,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 82.1475601196289,
+        "year": 2023
+      }
+    },
+    "BR": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 58.9818729765235,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 46.5,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 12.1793252040724,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 2.31826466114939,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 29.4,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.551497936248779,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 84.46347227,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 69.7317733764648,
+        "year": 2024
+      }
+    },
+    "CA": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 39.4617117321106,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 23.8,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 6.56566994375263,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 13.9983582392805,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 11.6,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.797520101070404,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 94.353302,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 76.2666931152344,
+        "year": 2023
+      }
+    },
+    "CH": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 32.3827380818297,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 27.7,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 9.06104968621636,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 3.74568795220564,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 12.5,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.756115138530731,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 97.32103855,
+        "year": 2025
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 73.5430526733398,
+        "year": 2024
+      }
+    },
+    "CL": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 25.0116461113584,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 24.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 23.2750668049145,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 3.93744000373189,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 37.9,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.651604175567627,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 95.590243,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 110.176902770996,
+        "year": 2024
+      }
+    },
+    "CN": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 24.0319389958256,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 15.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 34.8105237153218,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 9.31508933799393,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 14.7,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.65310263633728,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 91.6,
+        "year": 2025
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 76.8757843123403,
+        "year": 2024
+      }
+    },
+    "DE": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 32.6789342643734,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 17.6,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 10.2876894329414,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.94395663386317,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 40.0,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.751162469387054,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 93.49999579,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 76.7096862792969,
+        "year": 2024
+      }
+    },
+    "DK": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 15.7815,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 39.5,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 9.06983927345931,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 4.2782054919933,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 23.8,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.755094826221466,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 99.76915157,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 78.9604110717773,
+        "year": 2024
+      }
+    },
+    "EE": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 57.0652937046572,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 38.0,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 6.14573290973003,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 7.75936884491537,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 20.5,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.77720320224762,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 92.23796204,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 65.6692276000977,
+        "year": 2024
+      }
+    },
+    "ES": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 37.1925889548355,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 19.0,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 9.58105460690675,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 4.50540688376633,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 22.1,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.728255033493042,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 95.7574516,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 93.7689666748047,
+        "year": 2024
+      }
+    },
+    "FI": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 73.7235162521384,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 50.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 4.89518090216668,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 5.53521221243539,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 13.5,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.796001017093658,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 93.72405196,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 110.304496765137,
+        "year": 2024
+      }
+    },
+    "FR": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 32.4764820484275,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 16.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 9.60038144780495,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 4.00355772602595,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 36.7,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.762737214565277,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 88.65381638,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 71.5346908569336,
+        "year": 2024
+      }
+    },
+    "GB": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 13.2907130161617,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 12.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 9.91288560282114,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 4.22412677317771,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 42.1,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.782942950725555,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 95.4720993,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 80.4146499633789,
+        "year": 2023
+      }
+    },
+    "IE": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 11.5259108724053,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 12.7,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 8.17058601306707,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.03605774131313,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 4.0,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.792599022388458,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 97.18769836,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 77.5933380126953,
+        "year": 2022
+      }
+    },
+    "IN": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 24.5390304689576,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 34.9,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 48.3948115195574,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 2.17365173535787,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 4.5,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.493510901927948,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 70.0,
+        "year": 2025
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 34.4465039692543,
+        "year": 2025
+      }
+    },
+    "IT": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 32.8944947923712,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 17.5,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 14.6586386239905,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 5.07573834102673,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 14.8,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.727819681167603,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 89.2207202,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 75.9496536254883,
+        "year": 2023
+      }
+    },
+    "JP": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 68.3957811364628,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 8.8,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 12.835201662985,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 7.84242057238933,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 15.1,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.804714262485504,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 85.54153081,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 64.4907608032227,
+        "year": 2023
+      }
+    },
+    "KR": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 64.108606557377,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 3.6,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 25.9439899531653,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 11.3622569893006,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 5.9,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.798776268959045,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 97.89563777,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 111.853302001953,
+        "year": 2024
+      }
+    },
+    "MX": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 33.5959176419147,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 13.0,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 14.9923440243315,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 3.63738680384754,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 19.9,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.612949848175049,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 83.12233799,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 48.203441619873,
+        "year": 2024
+      }
+    },
+    "NL": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 11.0574428274428,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 12.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 10.8892498470498,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.60188395966651,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 29.8,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.789915025234222,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 97.00679779,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 86.5938262939453,
+        "year": 2023
+      }
+    },
+    "NO": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 33.5009745518434,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 61.4,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 6.05589724673443,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 7.17830173255862,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 5.4,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.771051168441772,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 99.0,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 95.4987564086914,
+        "year": 2024
+      }
+    },
+    "NZ": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 37.7892841137822,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 28.9,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 6.48591499675774,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.01694562647754,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 30.6,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.775932431221008,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 93.51930237,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 77.2406463623047,
+        "year": 2024
+      }
+    },
+    "PL": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 31.0804192379273,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 15.2,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 17.9583314936851,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 7.55108565871718,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 38.1,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.753088593482971,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 88.58496367,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 80.9149627685547,
+        "year": 2024
+      }
+    },
+    "PT": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 36.154994891142,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 32.3,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 8.45242266236737,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 3.32476489948602,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 17.2,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.768949568271637,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 88.48704454,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 77.6778182983398,
+        "year": 2023
+      }
+    },
+    "SE": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 68.7013529108454,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 57.9,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 5.63670790600148,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 3.57381645984766,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 15.9,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.79535710811615,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 95.76629783,
+        "year": 2025
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 83.9988098144531,
+        "year": 2024
+      }
+    },
+    "SG": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 20.933147632312,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 1.1,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 13.8691955865476,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 9.75144363129176,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 2.1,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.879125714302063,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 94.37757178,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 97.2886546863037,
+        "year": 2023
+      }
+    },
+    "US": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 33.8669264120375,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 10.9,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 7.81485752365112,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 13.6195685039144,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 15.8,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.701764345169067,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 94.69380188,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 79.361930847168,
+        "year": 2022
+      }
+    },
+    "ZA": {
+      "AG.LND.FRST.ZS": {
+        "indicator": "AG.LND.FRST.ZS",
+        "label": "Forest area",
+        "value": 13.965072665672,
+        "year": 2023
+      },
+      "EG.FEC.RNEW.ZS": {
+        "indicator": "EG.FEC.RNEW.ZS",
+        "label": "Renewable energy consumption",
+        "value": 9.7,
+        "year": 2021
+      },
+      "EN.ATM.PM25.MC.M3": {
+        "indicator": "EN.ATM.PM25.MC.M3",
+        "label": "PM2.5 exposure",
+        "value": 23.753069242361,
+        "year": 2020
+      },
+      "EN.GHG.CO2.PC.CE.AR5": {
+        "indicator": "EN.GHG.CO2.PC.CE.AR5",
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "value": 6.87684962627712,
+        "year": 2024
+      },
+      "ER.PTD.TOTL.ZS": {
+        "indicator": "ER.PTD.TOTL.ZS",
+        "label": "Protected areas",
+        "value": 12.9,
+        "year": 2025
+      },
+      "HD.HCI.OVRL": {
+        "indicator": "HD.HCI.OVRL",
+        "label": "Human Capital Index",
+        "value": 0.425453394651413,
+        "year": 2020
+      },
+      "IT.NET.USER.ZS": {
+        "indicator": "IT.NET.USER.ZS",
+        "label": "Internet users",
+        "value": 78.35759735,
+        "year": 2024
+      },
+      "SE.TER.ENRR": {
+        "indicator": "SE.TER.ENRR",
+        "label": "Tertiary enrolment",
+        "value": 23.493768799339,
+        "year": 2023
+      }
+    }
+  },
+  "report": {
+    "countriesWithAnyValue": 30,
+    "failed": [
+      {
+        "code": "SP.DYN.LE00.IN",
+        "label": "Life expectancy",
+        "layer": "individual",
+        "reason": "TimeoutError: The read operation timed out"
+      },
+      {
+        "code": "GE.EST",
+        "label": "Government effectiveness",
+        "layer": "collective",
+        "reason": "payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/GE.EST?format=json&per_page=20000&date=2010%3A2026&source=1181 | payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/GE.EST?format=json&per_page=20000&date=2010%3A2026"
+      },
+      {
+        "code": "RL.EST",
+        "label": "Rule of law",
+        "layer": "collective",
+        "reason": "payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/RL.EST?format=json&per_page=20000&date=2010%3A2026&source=1181 | payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/RL.EST?format=json&per_page=20000&date=2010%3A2026"
+      },
+      {
+        "code": "CC.EST",
+        "label": "Control of corruption",
+        "layer": "collective",
+        "reason": "payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/CC.EST?format=json&per_page=20000&date=2010%3A2026&source=1181 | payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/CC.EST?format=json&per_page=20000&date=2010%3A2026"
+      },
+      {
+        "code": "VA.EST",
+        "label": "Voice and accountability",
+        "layer": "collective",
+        "reason": "payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/VA.EST?format=json&per_page=20000&date=2010%3A2026&source=1181 | payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/VA.EST?format=json&per_page=20000&date=2010%3A2026"
+      },
+      {
+        "code": "RQ.EST",
+        "label": "Regulatory quality",
+        "layer": "collective",
+        "reason": "payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/RQ.EST?format=json&per_page=20000&date=2010%3A2026&source=1181 | payload did not contain a data array for URL https://api.worldbank.org/v2/country/IE;IT;DE;FR;NL;DK;SE;FI;EE;GB;US;CA;AU;NZ;JP;KR;SG;ES;PT;PL;CL;MX;BR;ZA;IN;CN;NO;CH;AT;BE/indicator/RQ.EST?format=json&per_page=20000&date=2010%3A2026"
+      }
+    ],
+    "generated_at": "2026-05-11T08:41:05.188285+00:00",
+    "loaded": [
+      {
+        "code": "HD.HCI.OVRL",
+        "countryValues": 30,
+        "label": "Human Capital Index",
+        "layer": "individual",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 118
+      },
+      {
+        "code": "IT.NET.USER.ZS",
+        "countryValues": 30,
+        "label": "Internet users",
+        "layer": "individual",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 455
+      },
+      {
+        "code": "SE.TER.ENRR",
+        "countryValues": 30,
+        "label": "Tertiary enrolment",
+        "layer": "individual",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 404
+      },
+      {
+        "code": "EG.FEC.RNEW.ZS",
+        "countryValues": 30,
+        "label": "Renewable energy consumption",
+        "layer": "planetary",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 360
+      },
+      {
+        "code": "ER.PTD.TOTL.ZS",
+        "countryValues": 30,
+        "label": "Protected areas",
+        "layer": "planetary",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 390
+      },
+      {
+        "code": "AG.LND.FRST.ZS",
+        "countryValues": 30,
+        "label": "Forest area",
+        "layer": "planetary",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 420
+      },
+      {
+        "code": "EN.GHG.CO2.PC.CE.AR5",
+        "countryValues": 30,
+        "label": "CO2 emissions excluding LULUCF per capita",
+        "layer": "planetary",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 450
+      },
+      {
+        "code": "EN.ATM.PM25.MC.M3",
+        "countryValues": 30,
+        "label": "PM2.5 exposure",
+        "layer": "planetary",
+        "sourceRoute": "default World Bank API",
+        "usableRows": 330
+      }
+    ],
+    "total": 14,
+    "values": 240,
+    "years": "2010:2026"
+  }
+}

@@ -1,0 +1,31 @@
+country,code,region,individual_intelligence,collective_intelligence,planetary_intelligence,overall_synergy,data_status
+Ireland,IE,Europe,74,76,61,70,Fallback illustrative
+Italy,IT,Europe,70,65,56,64,Fallback illustrative
+Germany,DE,Europe,73,80,59,71,Fallback illustrative
+France,FR,Europe,72,74,58,68,Fallback illustrative
+Netherlands,NL,Europe,75,84,62,74,Fallback illustrative
+Denmark,DK,Europe,77,88,69,78,Fallback illustrative
+Sweden,SE,Europe,77,87,72,79,Fallback illustrative
+Finland,FI,Europe,78,88,73,80,Fallback illustrative
+Estonia,EE,Europe,75,78,68,74,Fallback illustrative
+United Kingdom,GB,Europe,73,78,58,70,Fallback illustrative
+United States,US,North America,72,72,45,63,Fallback illustrative
+Canada,CA,North America,76,83,58,72,Fallback illustrative
+Australia,AU,Oceania,75,82,50,69,Fallback illustrative
+New Zealand,NZ,Oceania,75,85,66,75,Fallback illustrative
+Japan,JP,Asia,78,82,54,71,Fallback illustrative
+"Korea, Rep.",KR,Asia,77,78,50,68,Fallback illustrative
+Singapore,SG,Asia,82,90,42,71,Fallback illustrative
+Spain,ES,Europe,71,72,61,68,Fallback illustrative
+Portugal,PT,Europe,70,73,64,69,Fallback illustrative
+Poland,PL,Europe,70,66,54,63,Fallback illustrative
+Chile,CL,South America,64,62,52,59,Fallback illustrative
+Mexico,MX,North America,58,48,47,51,Fallback illustrative
+Brazil,BR,South America,58,46,63,56,Fallback illustrative
+South Africa,ZA,Africa,50,48,43,47,Fallback illustrative
+India,IN,Asia,49,45,42,45,Fallback illustrative
+China,CN,Asia,66,56,41,54,Fallback illustrative
+Norway,NO,Europe,78,90,78,82,Fallback illustrative
+Switzerland,CH,Europe,80,90,65,78,Fallback illustrative
+Austria,AT,Europe,74,82,64,73,Fallback illustrative
+Belgium,BE,Europe,74,79,59,71,Fallback illustrative

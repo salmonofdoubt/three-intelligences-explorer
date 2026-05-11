@@ -1,0 +1,182 @@
+[
+  {
+    "code": "IE",
+    "iso3": "IRL",
+    "name": "Ireland",
+    "region": "Europe"
+  },
+  {
+    "code": "IT",
+    "iso3": "ITA",
+    "name": "Italy",
+    "region": "Europe"
+  },
+  {
+    "code": "DE",
+    "iso3": "DEU",
+    "name": "Germany",
+    "region": "Europe"
+  },
+  {
+    "code": "FR",
+    "iso3": "FRA",
+    "name": "France",
+    "region": "Europe"
+  },
+  {
+    "code": "NL",
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "region": "Europe"
+  },
+  {
+    "code": "DK",
+    "iso3": "DNK",
+    "name": "Denmark",
+    "region": "Europe"
+  },
+  {
+    "code": "SE",
+    "iso3": "SWE",
+    "name": "Sweden",
+    "region": "Europe"
+  },
+  {
+    "code": "FI",
+    "iso3": "FIN",
+    "name": "Finland",
+    "region": "Europe"
+  },
+  {
+    "code": "EE",
+    "iso3": "EST",
+    "name": "Estonia",
+    "region": "Europe"
+  },
+  {
+    "code": "GB",
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "region": "Europe"
+  },
+  {
+    "code": "US",
+    "iso3": "USA",
+    "name": "United States",
+    "region": "North America"
+  },
+  {
+    "code": "CA",
+    "iso3": "CAN",
+    "name": "Canada",
+    "region": "North America"
+  },
+  {
+    "code": "AU",
+    "iso3": "AUS",
+    "name": "Australia",
+    "region": "Oceania"
+  },
+  {
+    "code": "NZ",
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "region": "Oceania"
+  },
+  {
+    "code": "JP",
+    "iso3": "JPN",
+    "name": "Japan",
+    "region": "Asia"
+  },
+  {
+    "code": "KR",
+    "iso3": "KOR",
+    "name": "Korea, Rep.",
+    "region": "Asia"
+  },
+  {
+    "code": "SG",
+    "iso3": "SGP",
+    "name": "Singapore",
+    "region": "Asia"
+  },
+  {
+    "code": "ES",
+    "iso3": "ESP",
+    "name": "Spain",
+    "region": "Europe"
+  },
+  {
+    "code": "PT",
+    "iso3": "PRT",
+    "name": "Portugal",
+    "region": "Europe"
+  },
+  {
+    "code": "PL",
+    "iso3": "POL",
+    "name": "Poland",
+    "region": "Europe"
+  },
+  {
+    "code": "CL",
+    "iso3": "CHL",
+    "name": "Chile",
+    "region": "South America"
+  },
+  {
+    "code": "MX",
+    "iso3": "MEX",
+    "name": "Mexico",
+    "region": "North America"
+  },
+  {
+    "code": "BR",
+    "iso3": "BRA",
+    "name": "Brazil",
+    "region": "South America"
+  },
+  {
+    "code": "ZA",
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "region": "Africa"
+  },
+  {
+    "code": "IN",
+    "iso3": "IND",
+    "name": "India",
+    "region": "Asia"
+  },
+  {
+    "code": "CN",
+    "iso3": "CHN",
+    "name": "China",
+    "region": "Asia"
+  },
+  {
+    "code": "NO",
+    "iso3": "NOR",
+    "name": "Norway",
+    "region": "Europe"
+  },
+  {
+    "code": "CH",
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "region": "Europe"
+  },
+  {
+    "code": "AT",
+    "iso3": "AUT",
+    "name": "Austria",
+    "region": "Europe"
+  },
+  {
+    "code": "BE",
+    "iso3": "BEL",
+    "name": "Belgium",
+    "region": "Europe"
+  }
+]

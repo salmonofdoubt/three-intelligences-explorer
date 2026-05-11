@@ -1,0 +1,151 @@
+[
+  {
+    "code": "HD.HCI.OVRL",
+    "label": "Human Capital Index",
+    "layer": "individual",
+    "weight": 0.42,
+    "direction": "positive",
+    "transform": "scale_0_1",
+    "source": "World Bank Human Capital Index",
+    "notes": "Human capital proxy for education-health capability. Not an IQ measure."
+  },
+  {
+    "code": "IT.NET.USER.ZS",
+    "label": "Internet users",
+    "layer": "individual",
+    "weight": 0.23,
+    "direction": "positive",
+    "transform": "percent",
+    "source": "World Bank WDI / ITU",
+    "notes": "Digital access proxy for knowledge access and participation."
+  },
+  {
+    "code": "SE.TER.ENRR",
+    "label": "Tertiary enrolment",
+    "layer": "individual",
+    "weight": 0.17,
+    "direction": "positive",
+    "transform": "capped_percent",
+    "cap": 100,
+    "source": "World Bank WDI",
+    "notes": "Learning-system depth proxy; gross enrolment can exceed 100 and is capped in the model."
+  },
+  {
+    "code": "SP.DYN.LE00.IN",
+    "label": "Life expectancy",
+    "layer": "individual",
+    "weight": 0.18,
+    "direction": "positive",
+    "transform": "linear",
+    "min": 50,
+    "max": 85,
+    "source": "World Bank WDI",
+    "notes": "Health/longevity proxy supporting human capability."
+  },
+  {
+    "code": "GE.EST",
+    "label": "Government effectiveness",
+    "layer": "collective",
+    "weight": 0.24,
+    "direction": "positive",
+    "transform": "wgi_estimate",
+    "source": "World Bank WGI",
+    "notes": "Institutional execution and policy implementation capacity."
+  },
+  {
+    "code": "RL.EST",
+    "label": "Rule of law",
+    "layer": "collective",
+    "weight": 0.22,
+    "direction": "positive",
+    "transform": "wgi_estimate",
+    "source": "World Bank WGI",
+    "notes": "Rule-based coordination and trust in systems."
+  },
+  {
+    "code": "CC.EST",
+    "label": "Control of corruption",
+    "layer": "collective",
+    "weight": 0.2,
+    "direction": "positive",
+    "transform": "wgi_estimate",
+    "source": "World Bank WGI",
+    "notes": "Integrity of resource allocation and institutions."
+  },
+  {
+    "code": "VA.EST",
+    "label": "Voice and accountability",
+    "layer": "collective",
+    "weight": 0.17,
+    "direction": "positive",
+    "transform": "wgi_estimate",
+    "source": "World Bank WGI",
+    "notes": "Societal feedback and accountability."
+  },
+  {
+    "code": "RQ.EST",
+    "label": "Regulatory quality",
+    "layer": "collective",
+    "weight": 0.17,
+    "direction": "positive",
+    "transform": "wgi_estimate",
+    "source": "World Bank WGI",
+    "notes": "Policy environment enabling coordinated action."
+  },
+  {
+    "code": "EG.FEC.RNEW.ZS",
+    "label": "Renewable energy consumption",
+    "layer": "planetary",
+    "weight": 0.24,
+    "direction": "positive",
+    "transform": "percent",
+    "source": "World Bank WDI / IEA",
+    "notes": "Energy-system transition proxy."
+  },
+  {
+    "code": "ER.PTD.TOTL.ZS",
+    "label": "Protected areas",
+    "layer": "planetary",
+    "weight": 0.22,
+    "direction": "positive",
+    "transform": "capped_percent",
+    "cap": 50,
+    "source": "World Bank WDI / Protected Planet",
+    "notes": "Biodiversity stewardship proxy; capped at 50% for scoring."
+  },
+  {
+    "code": "AG.LND.FRST.ZS",
+    "label": "Forest area",
+    "layer": "planetary",
+    "weight": 0.16,
+    "direction": "positive",
+    "transform": "capped_percent",
+    "cap": 80,
+    "source": "World Bank WDI",
+    "notes": "Land cover and ecological stock proxy; not a biodiversity-quality measure."
+  },
+  {
+    "code": "EN.GHG.CO2.PC.CE.AR5",
+    "label": "CO2 emissions excluding LULUCF per capita",
+    "layer": "planetary",
+    "weight": 0.22,
+    "direction": "negative",
+    "transform": "inverse_linear",
+    "min": 0,
+    "max": 25,
+    "source": "World Bank Sovereign ESG / EDGAR / JRC / IEA",
+    "notes": "Lower per-capita CO2 emissions excluding LULUCF score better in this model. Uses the newer World Bank ESG emissions series."
+  },
+  {
+    "code": "EN.ATM.PM25.MC.M3",
+    "label": "PM2.5 exposure",
+    "layer": "planetary",
+    "weight": 0.16,
+    "direction": "negative",
+    "transform": "inverse_linear",
+    "min": 0,
+    "max": 50,
+    "source": "World Bank WDI / IHME",
+    "notes": "Lower pollution exposure scores better in this model."
+  }
+]
