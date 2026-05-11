@@ -7,10 +7,10 @@ authors:
     given-names: "André"
     orcid: "https://orcid.org/0009-0005-8345-5530"
 abstract: "A browser-native prototype exploring individual, collective, and planetary intelligence using transparent public-indicator proxies."
-version: "0.3.0"
+version: "0.3.1"
 date-released: "2026-05-11"
 url: "https://salmonofdoubt.github.io/demos/intelligence/"
-doi: "10.5281/zenodo.19633908"
+doi: "10.5281/zenodo.20121017"
 license: "MIT"
 repository-code: "https://github.com/salmonofdoubt/three-intelligences-explorer"
 keywords:

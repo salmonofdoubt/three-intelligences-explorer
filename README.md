@@ -6,7 +6,7 @@ Public demo: https://salmonofdoubt.github.io/demos/intelligence/
 
 Model Logic page: https://salmonofdoubt.github.io/demos/intelligence/model.html
 
-Archived release DOI: https://doi.org/10.5281/zenodo.19633908
+Archived release DOI: https://doi.org/10.5281/zenodo.20121017
 
 The complete methodology, assumptions, data modes, indicator framework, equations, limitations, and APA 7 references are maintained on the Model Logic page.
 

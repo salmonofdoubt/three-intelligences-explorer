@@ -1521,7 +1521,7 @@ function downloadSelectedCountryPdfReport() {
   });
 
   addSection("5. Source transparency");
-  addPara(`Data mode: ${state.dataMode}. Indicator source: ${document.getElementById("dataSourceRoute")?.textContent || "n/a"}. Archived release DOI: 10.5281/zenodo.19633908.`);
+  addPara(`Data mode: ${state.dataMode}. Indicator source: ${document.getElementById("dataSourceRoute")?.textContent || "n/a"}. Archived release DOI: 10.5281/zenodo.20121017.`);
 
   addTable({
     startY: y,
@@ -1540,7 +1540,7 @@ function downloadSelectedCountryPdfReport() {
 
   addSection("6. Authorship, citation and reuse", "Academic reuse is welcome with attribution. Please cite this prototype using APA 7.");
   addPara("This report was generated from the Three Intelligences Explorer prototype by André Baumann. The model logic, indicator choices, interpretation text, and report structure should be cited when reused, adapted, or discussed.");
-  addPara("Suggested APA 7 citation: Baumann, A. (2026). Three Intelligences Explorer [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.19633908");
+  addPara("Suggested APA 7 citation: Baumann, A. (2026). Three Intelligences Explorer [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.20121017");
   addPara("Please do not present this report, the model design, or its explanatory text as your own unpublished work.");
 
   addSection("7. Model limitations");
@@ -1580,7 +1580,7 @@ function openPrintableCountryReport(row) {
         <p>This is a reasoning instrument, not a definitive ranking.</p>
         <p>${escapeHtml(row.maturity_interpretation || "")}</p>
         <h2>Suggested APA 7 citation</h2>
-        <p>Baumann, A. (2026). <em>Three Intelligences Explorer</em> [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.19633908</p>
+        <p>Baumann, A. (2026). <em>Three Intelligences Explorer</em> [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.20121017</p>
         <script>window.print();</script>
       </body>
     </html>

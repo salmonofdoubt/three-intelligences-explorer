@@ -16,6 +16,6 @@ The explanatory text, model framing, report structure, and interpretation langua
 
 Suggested APA 7 citation:
 
-Baumann, A. (2026). *Three Intelligences Explorer* [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.19633908
+Baumann, A. (2026). *Three Intelligences Explorer* [Interactive prototype]. Zenodo. https://doi.org/10.5281/zenodo.20121017
 
 Please do not present the report structure, explanatory language, or model design as your own unpublished work.
